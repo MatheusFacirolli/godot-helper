@@ -1,0 +1,14 @@
+{
+  "name": "godot-helper-marketplace",
+  "owner": {
+    "name": "Matheus Facirolli"
+  },
+  "description": "Personal marketplace hosting the godot-helper plugin for Claude Code.",
+  "plugins": [
+    {
+      "name": "godot-helper",
+      "source": ".",
+      "description": "Godot 4.6 development harness — bootstrap projects, plan features into parallelizable waves, execute via subagents that honor GDD/architecture/quirks conventions. Bundled GDScript reference (~860 class docs, progressive disclosure)."
+    }
+  ]
+}

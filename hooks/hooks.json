@@ -1,0 +1,17 @@
+{
+  "description": "godot-helper hooks. SessionStart auto-loads .GodotHelper/STATE.md when a session opens in a managed project. The Stop nudge was removed in v0.1.1 after it blocked sessions (prompt-based hooks don't support @file references).",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/session-start.sh\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

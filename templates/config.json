@@ -1,0 +1,13 @@
+{
+  "models": {
+    "research": "opus",
+    "planning": "opus",
+    "execution": "sonnet",
+    "evaluation": "opus",
+    "default": "sonnet"
+  },
+  "parallelization": { "max_concurrent_agents": 3 },
+  "gates": { "require_discuss_phase": false, "auto_commit": true },
+  "godot": { "version": "4.6", "executable_hint": "" },
+  "doc_updates": { "auto_update_architecture": true, "auto_update_quirks": true }
+}

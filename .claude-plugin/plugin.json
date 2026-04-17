@@ -1,0 +1,9 @@
+{
+  "name": "godot-helper",
+  "version": "0.1.1",
+  "description": "Godot 4.6 development harness for Claude Code — bootstraps projects, generates and maintains GDD/architecture/quirks docs, plans features into parallelizable waves, and executes via subagents that honor project conventions. Ships with bundled GDScript reference (progressive disclosure).",
+  "author": {
+    "name": "Matheus Facirolli"
+  },
+  "keywords": ["godot", "gamedev", "gdscript", "godot4", "orchestrator", "planning", "game-development"]
+}

@@ -1,0 +1,25 @@
+# Python artifacts from the bundled gdscript-reference tools
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude Code per-project session/cache
+.claude/
+
+# Local plan-mode scratch files (if ever run inside this repo)
+plans/
+
+# NOTE: doc_api/ (the ~860 bundled Godot class refs) is INTENTIONALLY committed.
+# It's the core progressive-disclosure payload — users installing this plugin
+# should not need to regenerate it.
