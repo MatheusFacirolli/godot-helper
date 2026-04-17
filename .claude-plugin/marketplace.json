@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "godot-helper",
-      "source": ".",
+      "source": "./",
       "description": "Godot 4.6 development harness — bootstrap projects, plan features into parallelizable waves, execute via subagents that honor GDD/architecture/quirks conventions. Bundled GDScript reference (~860 class docs, progressive disclosure)."
     }
   ]
